@@ -1,3 +1,4 @@
+import CallToAction from "@/section/call-to-action";
 import Companies from "@/section/companies";
 import Features from "@/section/features";
 import Hero from "@/section/hero";
@@ -15,6 +16,7 @@ const Home = () => {
       <Features />
       <Pricing />
       <Testimonial />
+      <CallToAction />
     </>
   );
 };
